@@ -40,7 +40,7 @@ There are two Artemis views that are available from the left hand menu the **Art
 
 The [**Artemis JMX**](#artemis-jmx-view) view navigates around resources using a JMX tree and presents the JMX Attributes and Operations of each specific MBean as well as functionality exposed.
 
-The [**Artemis**](#artemis-view) view is a set of tabs that exposes functionality in tabular views for paginating over broker resoures such as Addresses and Queues.
+The [**Artemis**](#artemis-view) view is a set of tabs that exposes functionality in tabular views for paginating over broker resources such as Addresses and Queues.
 
 <a id="artemis-jmx-view"></a>
 ### Artemis JMX View
@@ -57,7 +57,7 @@ MBean is selected in the tree a set of related tabs become visible
 
 #### Default Tabs
 
-All MBeans will show the following tabs by default which are exposed on all Mbeans.
+All MBeans will show the following tabs by default which are exposed on all MBeans.
 
 ##### Attributes
 
@@ -81,7 +81,7 @@ If the MBean selected is an Address MBean which are found under the *addresses* 
 ##### Create Queue
 
 This tab will allow the user to create queues that are bound to the address that is selected. It exposes the ability to 
-configure a sub set of available paramaters on the queue, however extra configuration not exposed  can be configured 
+configure a sub set of available parameters on the queue, however extra configuration not exposed  can be configured
 using a set of key/value pairs, for instance delay-before-dispatch or auto-delete.
 
 ##### Delete Address
@@ -101,9 +101,9 @@ It allows message headers to be added and a body. Note that the message type cre
 
 #### Queue Tabs
 
-If the MBean selected is a *Queue* MBean then teh following tabs are displayed.
+If the MBean selected is a *Queue* MBean then the following tabs are displayed.
 
-> NOTE: Queue MBeans are found under the  *Address* Mbean it is bound to.
+> NOTE: Queue MBeans are found under the  *Address* MBean it is bound to.
 >
 
 #### Browse Messages
@@ -247,7 +247,7 @@ value to filter on by clicking the *Search* button.
 
 Clicking on the *Queue Count* value will navigate to the **Address** tab and filter on that address 
 
-The 3 dots on teh right of each Address will allow the user to perform the following operations.
+The 3 dots on the right of each Address will allow the user to perform the following operations.
 
 ##### Show in Artemis JMX
 
@@ -259,7 +259,7 @@ This will open up a dialog showing all the Queues MBean attributes and allow edi
 
 ##### Operations
 
-This will open up a dialog showing all the Queues Mbean operations and allow execution of permissions allow. 
+This will open up a dialog showing all the Queues MBean operations and allow execution of permissions allow.
 
 ##### Delete Address
 
@@ -280,7 +280,7 @@ It allows message headers to be added and a body. Note that the message type cre
 ##### Create Queue
 
 This will open up a dialog which will allow the user to create queues that are bound to the address that is selected. It exposes the ability to
-configure a sub set of available paramaters on the queue, however extra configuration not exposed  can be configured
+configure a sub set of available parameters on the queue, however extra configuration not exposed  can be configured
 using a set of key/value pairs, for instance delay-before-dispatch or auto-delete.
 
 
@@ -314,7 +314,7 @@ This will then change the view to:
 
 #### Broker Diagram
 
-The **Broker Diagram** tab shows a visual representation of the Broker, its Addresses and Queue and any othe Broker that
+The **Broker Diagram** tab shows a visual representation of the Broker, its Addresses and Queue and any other Broker that
 may be in the Cluster. You can choose which Nodes to show by clicking on the *Node Options* dropdown.
 
 Clicking on the node will also fetch up the Attributes of the MBean associated with the node.
