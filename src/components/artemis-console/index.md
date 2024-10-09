@@ -1,7 +1,7 @@
 ---
 layout: project_default_md
 project_name: ActiveMQ Artemis Console
-project_info: The next Generation Artemis Console built on HawtIO 4
+project_info: The Next Generation Artemis Console built on HawtIO 4
 project_class: artemis
 project_color: purple
 ---
