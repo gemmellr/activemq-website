@@ -11,13 +11,25 @@ type: artemis
 
 ### Adding A Connection
 
-Once you have navigated to the *connect* page click on the *Add connection* button and fill in the Jolokia endpoint configuration
-of your broker. You will be able to test the connection before creating:
+Once you have navigated to the *Connect* page click on the *Add connection* button and fill in the Jolokia endpoint configuration
+of your broker.
 
+The endpoint details will depend on your specific broker configuration, but can be easily found in a message printed to
+the console during broker startup. For instance, a fresh broker instance displaying startup message:
+
+    AMQ241002: Artemis Jolokia REST API available at http://localhost:8161/console/jolokia
+
+Would yield connection details of:
+
+    Host: localhost
+    Port: 8161
+    Path: /console/jolokia
+
+Configure these as needed for your specific broker instance. You can test the connection with the *Test connection* button before clicking *Add* to save the connection:
 <img src= "connect.png" width="1200" alt="Edit Connection Image" style="border: 2px solid grey;">
 
-Once the connection is added simply click the *Connect* button of your broker and this should open up a new tab and prompt for a login attempt.
-Login and ypu should see  the console to 2 Artemis Menu items.
+Once the connection is added simply click the *Connect* button for your broker and this should open up a new tab and prompt for a login attempt.
+Once logged in you should see the console with two Artemis menu items.
 
 <img src= "connected.png" width="1200" alt="Connection Image" style="border: 2px solid grey;">
 
