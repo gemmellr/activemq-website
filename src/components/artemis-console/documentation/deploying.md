@@ -4,7 +4,7 @@ title: ActiveMQ Artemis Console Documentation
 title-class: page-title-artemis
 type: artemis
 ---
-[Documentation](index) > [Getting Started](getting-started)
+[Documentation](index) > [Deploying](deploying)
 
 ## Deploying embedded in ActiveMQ Artemis
 

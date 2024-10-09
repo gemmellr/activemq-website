@@ -4,7 +4,7 @@ title: ActiveMQ Artemis Console Documentation
 title-class: page-title-artemis
 type: artemis
 ---
-[Documentation](index) > [Getting Started](getting-started)
+[Documentation](index) > [Using The Console](console)
 
 <a id="connecting-to-the-broker"></a>
 ## Connecting To the Broker
