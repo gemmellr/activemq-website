@@ -36,10 +36,11 @@ Once logged in you should see the console with two Artemis menu items.
 <a id="navigating-theartemis-views"></a>
 ## Navigating the Artemis Views
 
-There are 2 Artemis views that are available from the left hand menu the **Artemis** View and the **Artemis JMX** view.
-The former navigates around resources using a JMX tree and exposes the JMX Attributes and Operations of each MBean as well as
-functionality exposed. The second is a set of tabs that exposes similar functionality but in tabular gviews and is not 
-related to specific mbeans.
+There are two Artemis views that are available from the left hand menu the **Artemis** view and the **Artemis JMX** view.
+
+The [**Artemis JMX**](#artemis-jmx-view) view navigates around resources using a JMX tree and presents the JMX Attributes and Operations of each specific MBean as well as functionality exposed.
+
+The [**Artemis**](#artemis-view) view is a set of tabs that exposes functionality in tabular views for paginating over broker resoures such as Addresses and Queues.
 
 <a id="artemis-jmx-view"></a>
 ### Artemis JMX View
