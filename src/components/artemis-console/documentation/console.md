@@ -332,7 +332,7 @@ By default the console is locked down to 'localhost', pay particular attention t
 
 #### MBean Access
 
-Access to MBeans is configured in ActiveMQ Artemis, see the [Management via JMX](https://activemq.apache.org/components/artemis/documentation/) chapter.
+Access to MBeans is configured in ActiveMQ Artemis, see the [Management via JMX](https://activemq.apache.org/components/artemis/documentation/latest/management.html#management-via-jmx) chapter.
 
 Certain screen and tab visibility is controlled by the access to a specific JMX Operation, for instance the **Create Queue** 
 tab is only shown if the user has access to the create queue JMX operation.
