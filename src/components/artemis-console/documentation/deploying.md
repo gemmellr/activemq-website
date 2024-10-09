@@ -40,7 +40,7 @@ java -Dhawtio.authenticationEnabled=false -jar $JETTY_HOME/start.jar
 
 Connect a browser to [http://localhost:8080/console](http://localhost:8080/console) or the URL you configured for Jetty.
 
-The [connecting](connecting) chapter explains how to connect to a running broker
+The [connecting](console.html#connecting-to-the-broker) chapter explains how to connect to a running broker.
 
 For full information on deploying Applications in Jetty see [The Operations Guide](https://jetty.org/docs/jetty/12/operations-guide/index.html)
 
@@ -67,4 +67,4 @@ export CATALINA_OPTS="-Dhawtio.authenticationEnabled=false"
 
 Once Tomcat is started connect a browser to [http://localhost:8080/console](http://localhost:8080/console) or the URL you configured for tomcat.
 
-The [connecting](connecting) chapter explains how to connect to a running broker
+The [connecting](console.html#connecting-to-the-broker) chapter explains how to connect to a running broker
