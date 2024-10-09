@@ -38,7 +38,7 @@ java -Dhawtio.authenticationEnabled=false -jar $JETTY_HOME/start.jar
 
 > **_NOTE:_**  Since this is only running the Connect plugin Hawtio authentication is disabled. Authentication will take place on connection to the Artemis Broker. 
 
-Connect a browser to [http:/localhost:8080/console](http:/localhost:8080/console) or the URL you configured for Jetty.
+Connect a browser to [http://localhost:8080/console](http://localhost:8080/console) or the URL you configured for Jetty.
 
 The [connecting](connecting) chapter explains how to connect to a running broker
 
@@ -65,6 +65,6 @@ you can disable authentication by setting the property:
 export CATALINA_OPTS="-Dhawtio.authenticationEnabled=false"
 ```
 
-Once Tomcat is started connect a browser to [http:/localhost:8080/console](http:/localhost:8080/console) or the URL you configured for tomcat.
+Once Tomcat is started connect a browser to [http://localhost:8080/console](http://localhost:8080/console) or the URL you configured for tomcat.
 
 The [connecting](connecting) chapter explains how to connect to a running broker
