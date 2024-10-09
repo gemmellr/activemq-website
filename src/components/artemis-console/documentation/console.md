@@ -341,23 +341,3 @@ tab is only shown if the user has access to the create queue JMX operation.
 
 Please refer to the [HawtIO Documentation](https://hawt.io/docs/oidc.html)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
