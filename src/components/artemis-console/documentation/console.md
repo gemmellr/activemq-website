@@ -309,8 +309,9 @@ This will then change the view to:
 
 <img src= "browse2.png" width="1200" alt="browse2 Image" style="border: 2px solid grey;">
 
-> NOTE: you can navigate to and from each view by using the *Queues* and the *Browse * button at th ebottom left hand corner.
-> 
+> NOTE: You can navigate to and from each view by using the *Queues* and the *Browse * button at the bottom left hand corner.
+
+
 #### Broker Diagram
 
 The **Broker Diagram** tab shows a visual representation of the Broker, its Addresses and Queue and any othe Broker that
