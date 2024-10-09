@@ -49,7 +49,7 @@ For full information on deploying Applications in Jetty see [The Operations Guid
 
 Firstly you will need to install [Tomcat Version 10](https://tomcat.apache.org/download-10.cgi).
 
-There are many ways to deploy a *WAR* file using Tomcat. The [Tomcat Documentation]{https://tomcat.apache.org/tomcat-10.1-doc) explains this in detail.
+There are many ways to deploy a *WAR* file using Tomcat. The [Tomcat Documentation](https://tomcat.apache.org/tomcat-10.1-doc) explains this in detail.
 
 You will need to make sure  that the context path for the console is configured to be */console*, if the war were configured in 
 the tomcat *server.xml* this would look like:
