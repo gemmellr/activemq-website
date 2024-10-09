@@ -9,7 +9,7 @@ This is the current ActiveMQ Artemis Console release.
 
 ## ActiveMQ Artemis Console 1.0.0 (8th October 2024)
 
-[Release Notes](https://issues.apache.org/jira/projects/ARTEMIS/versions/12354639) \| [Documentation](../documentation)
+[Release Notes](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12315920&version=12354639) \| [Documentation](../documentation)
 
 
 |----------------------|--------------------------------------------------------|------------|-------------------|
